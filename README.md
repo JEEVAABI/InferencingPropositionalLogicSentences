@@ -2,25 +2,25 @@
 
 ## AIM
 
-To develop python code to inference propositional logic sentences to solve Wumpus World problem.
+To develop python code to inference propositional logic sentences to solve the Wumpus World problem.
 
 ## THEORY:
-The Wumpus World's agent is an example of a knowledge-based agent that represents Knowledge representation, reasoning and planning. Knowledge-Based agent links general knowledge with current percepts to infer hidden characters of current state before selecting actions.
+The Wumpus World's agent is an example of a knowledge-based agent that represents Knowledge representation, reasoning , and planning. A Knowledge-Based agent links general knowledge with current percepts to infer hidden characters of the current state before selecting actions.
 
 
 ## DESIGN STEPS
 ### STEP 1:
 Importing required logical and utils files.
 ### STEP 2:
-Defining a knowledge base class with functions on python file.
+Defining a knowledge base class with functions on a python file.
 ### STEP 3:
-creating new knowledge base for agent,with function called propKB().
+creating a new knowledge base for agent, with a function called propKB().
 ### STEP 4:
-Mentioning the labels in wumpus game cell for location in function of expressions.
+Mentioning the labels in the wumpus game cell for location in the function of expressions.
 ### STEP 5:
-Using wumpus_kb.tell() to define the environment of wumpus game.
+Using wumpus_kb.tell() to define the environment of the wumpus game.
 ### STEP 6:
-Using propositional Logic define the possibility to agent
+Using propositional Logic defines the possibility of agent's next move.
 ### STEP 7:
 Using wumpus_kb.ask_if_true() to get the result based on TRUE value.
 ## PROGRAM
@@ -94,15 +94,15 @@ wumpus_kb.ask_if_true(~P41)
 ### Checking in algorithm:
 ![output4](outttt1.png)
 ![output5](fin.png)
-### Propositionallogic:
+### Propositional logic:
 ![output6](log.png)
-### Starting of game:
+### Starting of the game:
 ![output1](STATR.png)
-### Mid of game:
+### Mid of the game:
 ![output2](BEF.png)
-### end of game:
+### end of the game:
 ![output3](OVER.png)
 ## RESULT
-Thus, the developed agent can predict the next move in wupus game using propositional logic sentence .
+Thus, the developed agent can predict the next move in the wumpus game using propositional logic sentences .
 
 
